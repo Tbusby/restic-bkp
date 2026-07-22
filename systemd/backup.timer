@@ -2,7 +2,7 @@
 Description=Backup with restic daily
 
 [Timer]
-OnStartupSec=2h
+OnCalendar=*-*-* 02:00:00
 Persistent=true
 
 [Install]
