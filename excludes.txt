@@ -1,0 +1,8 @@
+.cache
+.local/share
+.local/state
+.npm
+.nv
+.pki
+.config/restic/password
+
