@@ -1,8 +1,8 @@
 [Unit]
-Description=Backup with restic daily
+Description=Backup with restic every 3 hours
 
 [Timer]
-OnCalendar=*-*-* 02:00:00
+OnUnitActiveSec=3h
 Persistent=true
 
 [Install]
